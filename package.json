@@ -1,5 +1,7 @@
 {
   "name": "nodejs-basics",
+=======
+  "name": "node-nodejs-basics",
   "version": "1.0.0",
   "description": "This repository is the part of nodejs-assignments https://github.com/AlreadyBored/nodejs-assignments",
   "type": "module",
@@ -15,6 +17,8 @@
     "assignments",
     "alreadybored"
   ],
+=======
+  "keywords": ["nodejs", "assignments", "alreadybored"],
   "author": "alreadybored",
   "license": "ISC",
   "bugs": {
@@ -26,4 +30,6 @@
     "fs": "^0.0.1-security",
     "fs.promises": "^0.1.2"
   }
+=======
+  "homepage": "https://github.com/AlreadyBored/node-nodejs-basics#readme"
 }

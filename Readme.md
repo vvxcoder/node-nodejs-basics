@@ -62,3 +62,5 @@ Before the start of the course, the student must:
 ### Week 9
 - [Module "REST service: Logging & Error handling"](https://github.com/rolling-scopes-school/tasks/blob/master/node/modules/rest/logging-error-handling/README.md)
 - [Module "REST service: Authentication & Authorization"](https://github.com/rolling-scopes-school/tasks/blob/master/node/modules/rest/authentication-jwt/README.md)
+=======
+# Node.js basics
