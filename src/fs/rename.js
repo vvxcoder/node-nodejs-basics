@@ -9,11 +9,11 @@ export const rename = async () => {
     try {
         await fs.stat(process.cwd() + "/src/fs/files/wrongFilename.txt");
     } catch (error) {
-        console.log("FS operation failed must be thrown");
+        throw new Error("FS operation failed must be thrown");
     }
     try {
         await fs.stat(process.cwd() + "/src/fs/files/properFilename.md");
-        console.log("FS operation failed must be thrown");
+        throw new Error("FS operation failed must be thrown");
     } catch (error) {
         //
     }

@@ -11,7 +11,7 @@ export const copy = async () => {
 
     try {
         await fs.stat(process.cwd() + "/src/fs/files_copy/");
-        console.log("FS operation failed must be thrown");
+        throw new Error("FS operation failed must be thrown");
     } catch (error) {
         console.log(error);
     }

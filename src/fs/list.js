@@ -10,7 +10,7 @@ export const list = async () => {
     try {
         await fs.stat(process.cwd() + "/src/fs/files/");
     } catch (error) {
-        console.log("FS operation failed must be thrown");
+        throw new Error("FS operation failed must be thrown");
         return;
     }
 

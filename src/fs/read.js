@@ -11,7 +11,7 @@ export const read = async () => {
     try {
         await fs.stat(process.cwd() + "/src/fs/files/fileToRead.txt");
     } catch (error) {
-        console.log("FS operation failed must be thrown");
+        throw new Error("FS operation failed must be thrown");
         return;
     }
 
